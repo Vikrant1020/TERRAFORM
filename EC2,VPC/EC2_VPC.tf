@@ -1,8 +1,3 @@
-provider "aws" {
-    region = "ap-northeast-1"
-    profile = "default"
-}
-
 
 # creating key for ec2
 resource "aws_key_pair" "deployer" {
